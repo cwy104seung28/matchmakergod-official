@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="81.53" height="75.73" viewBox="0 0 81.53 75.73">
+  <defs>
+    <style>
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: none;
+        stroke: #092a31;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .f {
+        fill: #092a31;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="說明">
+    <g>
+      <circle class="f" cx="43.71" cy="37.82" r="37.82"/>
+      <circle class="d" cx="37.82" cy="37.91" r="37.82"/>
+      <g>
+        <line class="e" x1="25.08" y1="29.14" x2="50.56" y2="29.14"/>
+        <line class="e" x1="25.08" y1="37.91" x2="50.56" y2="37.91"/>
+        <line class="e" x1="25.08" y1="46.67" x2="50.56" y2="46.67"/>
+      </g>
+    </g>
+  </g>
+</svg>

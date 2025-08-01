@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_文字_圖" data-name="文字/圖" xmlns="http://www.w3.org/2000/svg" width="497.75" height="503.49" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 497.75 503.49">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="-548.22" y="690.29" width="1919.65" height="975.52" transform="translate(823.21 2356.1) rotate(180)" fill="none"/>
+    </clipPath>
+    <linearGradient id="_未命名漸層_5" data-name="未命名漸層 5" x1="5951.74" y1="16866.44" x2="5956.8" y2="17248.62" gradientTransform="translate(-5548.32 -16382.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".71" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" opacity=".5">
+    <g clip-path="url(#clippath)" fill="none">
+      <rect x="-548.22" y="380.9" width="1919.65" height="1443.05" transform="translate(823.21 2204.85) rotate(180)" fill="url(#_未命名漸層_5)" opacity=".82"/>
+    </g>
+  </g>
+  <path d="m282.51,114.91c-1.15-.83-28.96-24.36-27.2-44.95h-12.22c2.27,21.86-25.03,44.03-26.18,44.86" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6"/>
+  <path d="m218.31,114.62c11.22,6.99,31.52,6.96,31.71,6.95h.25c.18,0,19.45-.07,30.69-6.66" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6"/>
+  <circle cx="249.37" cy="289.58" r="124.32" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6"/>
+  <circle cx="249.69" cy="154.04" r="51.39" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6"/>
+</svg>
