@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="26.38" height="26.38" viewBox="0 0 26.38 26.38">
+  <defs>
+    <style>
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #092a31;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="fix 按鈕">
+    <circle class="e" cx="13.19" cy="13.19" r="13.19" transform="translate(-4.04 20.33) rotate(-67.5)"/>
+    <path class="d" d="M14.72,8.47c.06-.06.26-.2.85-.2.33,0,.68.03,1.05.1l.58.1.5-2.8-.57-.11c-1.86-.35-3.34-.23-4.25.35-.58.37-.99.87-1.23,1.48-.16.43-.24,1.05-.24,1.87v.59h-1.73v2.65h1.73v8.15h3.13v-8.15h2.25v-2.65h-2.25v-.43c0-.72.16-.92.19-.95Z"/>
+  </g>
+</svg>

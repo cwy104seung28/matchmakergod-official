@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="34.84" height="15.85" viewBox="0 0 34.84 15.85">
+  <defs>
+    <style>
+      .d {
+        fill: none;
+        stroke: #092a31;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: .94px;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="fix 按鈕">
+    <g>
+      <line class="d" x1=".47" y1=".47" x2="34.37" y2="15.38"/>
+      <line class="d" x1="34.37" y1=".47" x2=".47" y2="15.38"/>
+    </g>
+  </g>
+</svg>

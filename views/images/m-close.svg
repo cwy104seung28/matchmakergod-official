@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="111.23" height="50.59" viewBox="0 0 111.23 50.59">
+  <defs>
+    <style>
+      .d {
+        fill: none;
+        stroke: #092a31;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="icon">
+    <g>
+      <line class="d" x1="1.5" y1="1.5" x2="109.73" y2="49.09"/>
+      <line class="d" x1="109.73" y1="1.5" x2="1.5" y2="49.09"/>
+    </g>
+  </g>
+</svg>

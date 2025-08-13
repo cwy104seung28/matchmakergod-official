@@ -66,8 +66,9 @@ class RyderMarquee {
     }
 
     if (this.direct == 1) {
-      this.wrapper.style.transform = `translate3d(-${this.wrapper.getBoundingClientRect().width / 2
-        }px, 0, 0)`;
+      this.wrapper.style.transform = `translate3d(-${
+        this.wrapper.getBoundingClientRect().width / 2
+      }px, 0, 0)`;
       this.transform = -this.wrapper.getBoundingClientRect().width / 2;
     }
 
@@ -216,35 +217,48 @@ $("[data-enter]").each((i, el) => {
 });
 
 $("nav .hamburger").on("click", function () {
-  $("nav .hamburger").toggleClass('is-open')
-  $(".topmenuList-mobile").toggleClass('is-open')
+  $("nav .hamburger").toggleClass("is-open");
+  $(".topmenuList-mobile").toggleClass("is-open");
 });
-$(window).on('scroll', function () {
+$(window).on("scroll", function () {
   let currentScroll = $(this).scrollTop();
 
   if (currentScroll >= 100) {
     // 👇 往下滑，加上 class
-    $('.topmenu .logo').addClass('opacity-0').addClass('pointer-events-none');
+    $(".topmenu .logo").addClass("opacity-0");
   } else {
     // 👆 往上滑，移除 class
-    $('.topmenu .logo').removeClass('opacity-0').removeClass('pointer-events-none');
+    $(".topmenu .logo")
+      .removeClass("opacity-0");
   }
-
 });
-
 
 let lastScrollTop = 0;
 
-$(window).on('scroll', function () {
+$(window).on("scroll", function () {
   let currentScroll = $(this).scrollTop();
 
   if (currentScroll > lastScrollTop) {
     // 👇 往下滑，加上 class
-    $('.hamburger').addClass('opacity-0').addClass('pointer-events-none');
+    $(".hamburger").addClass("opacity-0").addClass("pointer-events-none");
+    $(".member").addClass("opacity-0").addClass("pointer-events-none");
   } else {
     // 👆 往上滑，移除 class
-    $('.hamburger').removeClass('opacity-0').removeClass('pointer-events-none');
+    $(".hamburger").removeClass("opacity-0").removeClass("pointer-events-none");
+     $(".member").removeClass("opacity-0").removeClass("pointer-events-none");
   }
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // 防止負值
+});
+
+$(".topmenu .member").on("click", function () {
+  $(".member-fancy").addClass("is-show");
+  $("html").addClass('is-lock')
+  $("body").addClass('is-lock')
+});
+
+$(".member-fancy .m-close").on("click", function () {
+  $(".member-fancy").removeClass("is-show");
+  $("html").removeClass('is-lock')
+  $("body").removeClass('is-lock')
 });

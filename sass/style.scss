@@ -43,6 +43,9 @@ svg {
 
 html {
     overflow-x: clip;
+    &.is-lock {
+        overflow: hidden;
+    }
 }
 
 body {
@@ -51,7 +54,7 @@ body {
     --lock: 0px;
 
     &.is-lock {
-        overflow-y: hidden;
+        overflow: hidden;
         margin-right: var(--lock);
 
         @screen md {
