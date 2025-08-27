@@ -697,9 +697,6 @@ video {
 .top-\[15\%\]{
   top: 15%;
 }
-.top-\[287px\]{
-  top: 287px;
-}
 .top-\[36\%\]{
   top: 36%;
 }
@@ -1532,10 +1529,6 @@ video {
 .px-80{
   padding-left: 20rem;
   padding-right: 20rem;
-}
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 .py-14{
   padding-top: 3.5rem;
