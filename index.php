@@ -67,7 +67,7 @@ $app->hook('slim.before', function () use ($app) {
 
   if ($mode == 'development') {
     $baseurl = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $host . $port . $root . $lanpath;
-  }else{
+  } else {
     $baseurl = "https://" . $host . $root . $lanpath;
   }
 
@@ -117,7 +117,9 @@ $app->get('(/:path+)/log1n', function () use ($app) {
 $app->get('/', function () use ($app) {
   $app->render('views/index.php');
 });
-
+$app->get('/about', function () use ($app) {
+  $app->render('views/about.php');
+});
 $app->get('/cart-1', function () use ($app) {
   $app->render('views/cart1.php');
 });
@@ -236,9 +238,9 @@ $app->get('/movies/:slug', function ($slug) use ($app) {
 $app->get('/feature', function () use ($app) {
   $isMob = is_numeric(strpos(strtolower($_SERVER["HTTP_USER_AGENT"]), "mobile"));
 
-  if($isMob){
+  if ($isMob) {
     $app->render('views/featureMobile.php');
-  }else{
+  } else {
     $app->render('views/feature.php');
   }
 });
