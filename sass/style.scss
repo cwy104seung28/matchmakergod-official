@@ -43,6 +43,7 @@ svg {
 
 html {
     overflow-x: clip;
+
     &.is-lock {
         overflow: hidden;
     }
@@ -1346,5 +1347,104 @@ body {
 
     @screen lg {
         margin-bottom: 10px;
+    }
+}
+
+.about-draw-1 {
+    .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+    }
+}
+
+.about-draw-2 {
+    .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+    }
+}
+
+.about-draw-3 {
+
+    .cls-1,
+    .cls-2 {
+        fill: none;
+    }
+
+    .cls-2 {
+        stroke: #092a31;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-3 {
+        clip-path: url(#clippath);
+    }
+}
+
+.about-draw-4 {
+
+    .cls-1,
+    .cls-2 {
+        fill: none;
+    }
+
+    .cls-2 {
+        stroke: #092a31;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-3 {
+        clip-path: url(#clippath2);
+    }
+}
+
+.about-draw-5 {
+    .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-1,
+    .cls-2 {
+        fill: none;
+    }
+
+    .cls-3 {
+        clip-path: url(#clippath3);
+    }
+}
+
+.about-draw-6 {
+
+    .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-1,
+    .cls-2 {
+        fill: none;
+    }
+
+    .cls-3 {
+        clip-path: url(#clippath4);
+    }
+}
+
+.about-draw-final {
+    .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+    }
+
+    .cls-1,
+    .cls-2 {
+        fill: none;
+    }
+
+    .cls-3 {
+        clip-path: url(#clippath5);
     }
 }
